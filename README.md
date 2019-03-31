@@ -17,7 +17,7 @@ time to practice what we've learned.
 
 You might have noticed that our tests are looking for functions like
 `destructivelyAppendDriver()` — what's up with that?
-
+˚
 We want to distinguish between actions that _mutate_ ("change") their underlying
 structures (like `pop()`, `push()`, `shift()`, and `unshift()`) and those
 functions that leave those structures untouched.
